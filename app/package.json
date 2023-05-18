@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "User Info Demo App",
+  "main": "index.html",
+  "scripts": {
+    "start": "node node_modules/@sap/approuter/approuter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABRANJAN07/User-Info.git"
+  },
+  "keywords": [
+    "User-Info"
+  ],
+  "author": "abhijeet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ABRANJAN07/User-Info/issues"
+  },
+  "homepage": "https://github.com/ABRANJAN07/User-Info#readme",
+  "dependencies": {
+    "@sap/approuter": "^14.1.1"
+  }
+}
