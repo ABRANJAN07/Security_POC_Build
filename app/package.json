@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/ABRANJAN07/User-Info#readme",
   "dependencies": {
-    "@sap/approuter": "^14.1.1"
+    "@sap/approuter": "^14.3.0"
   }
 }

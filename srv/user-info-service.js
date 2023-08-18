@@ -17,9 +17,8 @@ module.exports = cds.service.impl(async function () {
             tenant : req.user.tenant,
             _roles: req.user._roles,
             role_check : req.user.is('admin'),
-            attr : req.user.attr,
-            level : req.user.attr.level,
-            familyName : req.user.attr.familyName
+            attr : req.user.attr.Region,
+            roles : req.user.roles
         }
 
         return user;

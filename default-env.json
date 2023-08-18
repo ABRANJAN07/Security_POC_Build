@@ -1,0 +1,43 @@
+{
+    "destinations": [
+        {
+            "name": "srv-api",
+            "url": "http://localhost:4004",
+            "forwardAuthToken": true
+        }
+    ],
+    "VCAP_SERVICES": {
+        "xsuaa": [
+            {
+                "name": "user-info-xsuaa",
+                "instance_name": "user-info-xsuaa",
+                "label": "xsuaa",
+                "tags": [
+                    "xsuaa",
+                    "endpoint:https://api.cf.us10-001.hana.ondemand.com",
+                    "org:8180fe16trial",
+                    "space:dev"
+                ],
+                "plan": "application",
+                "credentials": {
+                    "apiurl": "https://api.authentication.us10.hana.ondemand.com",
+                    "clientid": "sb-user-info!t169406",
+                    "clientsecret": "3MXQQ/Z6ZhMC3ps/Juv0TJ967m8=",
+                    "credential-type": "instance-secret",
+                    "identityzone": "8180fe16trial",
+                    "identityzoneid": "78dbf366-7568-424d-9899-5375acbd2cbb",
+                    "sburl": "https://internal-xsuaa.authentication.us10.hana.ondemand.com",
+                    "service_key_name": "key",
+                    "subaccountid": "78dbf366-7568-424d-9899-5375acbd2cbb",
+                    "tenantid": "78dbf366-7568-424d-9899-5375acbd2cbb",
+                    "tenantmode": "dedicated",
+                    "uaadomain": "authentication.us10.hana.ondemand.com",
+                    "url": "https://8180fe16trial.authentication.us10.hana.ondemand.com",
+                    "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmFkewAZIZ7DPEzQZHrhI\nq7uTDOkuorG1wQPLEQZm5t+aOj4X3gVEIVnWN49nrn/QGjcgZDjXkW2CUKxL9xta\n+kQNGCxhUW0Kbr/UKsW1f4FKy/T34jIvphQpSujZw/7LAdHJGsCV6G1sU2QjgdB9\nFNeLxnowo51pmyb0c4VTQ91M8ilBgeEKVavxAiWg7hYwctZj7K4WgdgSXAG7jtHO\nFG0CdK19lyNqjZtzYwz23fgdrel60AujtqwrhS34YahFjFUPKaeVHwV+dz7Gwiic\nN2EkHC3eOhDmjUk3RSCVwwliDBm5W/SUQumuhggOk0IX2YnScyHWa549HLei5XB+\nMwIDAQAB\n-----END PUBLIC KEY-----",
+                    "xsappname": "user-info!t169406",
+                    "zoneid": "78dbf366-7568-424d-9899-5375acbd2cbb"
+                }
+            }
+        ]
+    }
+}

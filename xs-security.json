@@ -6,6 +6,17 @@
         {
             "name": "uaa.user",
             "description": "UAA"
+        },
+        {
+            "name": "$XSAPPNAME.Viewer",
+            "description": "Viewer"
+        }
+    ],
+    "attributes": [
+        {
+            "name": "Region",
+            "description": "Region",
+            "valueType": "string"
         }
     ],
     "role-templates": [
@@ -15,11 +26,25 @@
             "scope-references": [
                 "uaa.user"
             ]
+        },
+        {
+            "name": "Viewer",
+            "description": "Viewer",
+            "attribute-references": [
+                {
+                    "name": "Region"
+                }
+            ],
+            "scope-references": [
+                "$XSAPPNAME.Viewer"
+            ]
         }
     ],
     "oauth2-configuration": {
         "redirect-uris": [
             "https://*.hana.ondemand.com/**",
+            "https://*cfapps.us10-001.hana.ondemand.com/login/callback*",
+            "https://port5000*/login/callback*",
             "https://*.applicationstudio.cloud.sap/**"
         ]
     }
