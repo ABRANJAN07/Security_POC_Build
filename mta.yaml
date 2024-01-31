@@ -22,7 +22,7 @@ modules:
         properties:
           srv-url: ${default-url}
     requires:
-      - name: user-info-auth
+      - name: user-info-authv2
       - name: user-info-destination
 
   - name: user-info
@@ -39,17 +39,17 @@ modules:
           name: srv-api # must be used in xs-app.json as well
           url: ~{srv-url}
           forwardAuthToken: true
-      - name: user-info-auth
+      - name: user-info-authv2
 
 resources:
-  - name: user-info-auth
+  - name: user-info-authv2
     type: org.cloudfoundry.managed-service
     parameters:
       service: xsuaa
       service-plan: application
       path: ./xs-security.json
       config:
-        xsappname: user-info-${org}-${space}
+        xsappname: user-infov2
         tenant-mode: dedicated
   - name: user-info-destination
     type: org.cloudfoundry.managed-service

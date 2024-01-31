@@ -14,28 +14,28 @@
                 "label": "xsuaa",
                 "tags": [
                     "xsuaa",
-                    "endpoint:https://api.cf.us10-001.hana.ondemand.com",
-                    "org:8180fe16trial",
-                    "space:dev"
+                    "endpoint:https://api.cf.jp10.hana.ondemand.com",
+                    "org:Sony Semiconductor Solutions Corporatio_auth-poc-sony-semicon-sigma",
+                    "space:auth_poc"
                 ],
                 "plan": "application",
                 "credentials": {
-                    "apiurl": "https://api.authentication.us10.hana.ondemand.com",
-                    "clientid": "sb-user-info!t169406",
-                    "clientsecret": "3MXQQ/Z6ZhMC3ps/Juv0TJ967m8=",
+                    "apiurl": "https://api.authentication.jp10.hana.ondemand.com",
+                    "clientid": "sb-user-info!t5072",
+                    "clientsecret": "/Oq+HuA/hHdr+JApmpUkChRjlwE=",
                     "credential-type": "instance-secret",
-                    "identityzone": "8180fe16trial",
-                    "identityzoneid": "78dbf366-7568-424d-9899-5375acbd2cbb",
-                    "sburl": "https://internal-xsuaa.authentication.us10.hana.ondemand.com",
+                    "identityzone": "auth-poc-sony-semicon-sigma",
+                    "identityzoneid": "b968a30f-ea74-4334-bf7b-a6304dcac9d7",
+                    "sburl": "https://internal-xsuaa.authentication.jp10.hana.ondemand.com",
                     "service_key_name": "key",
-                    "subaccountid": "78dbf366-7568-424d-9899-5375acbd2cbb",
-                    "tenantid": "78dbf366-7568-424d-9899-5375acbd2cbb",
+                    "subaccountid": "b968a30f-ea74-4334-bf7b-a6304dcac9d7",
+                    "tenantid": "b968a30f-ea74-4334-bf7b-a6304dcac9d7",
                     "tenantmode": "dedicated",
-                    "uaadomain": "authentication.us10.hana.ondemand.com",
-                    "url": "https://8180fe16trial.authentication.us10.hana.ondemand.com",
-                    "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmFkewAZIZ7DPEzQZHrhI\nq7uTDOkuorG1wQPLEQZm5t+aOj4X3gVEIVnWN49nrn/QGjcgZDjXkW2CUKxL9xta\n+kQNGCxhUW0Kbr/UKsW1f4FKy/T34jIvphQpSujZw/7LAdHJGsCV6G1sU2QjgdB9\nFNeLxnowo51pmyb0c4VTQ91M8ilBgeEKVavxAiWg7hYwctZj7K4WgdgSXAG7jtHO\nFG0CdK19lyNqjZtzYwz23fgdrel60AujtqwrhS34YahFjFUPKaeVHwV+dz7Gwiic\nN2EkHC3eOhDmjUk3RSCVwwliDBm5W/SUQumuhggOk0IX2YnScyHWa549HLei5XB+\nMwIDAQAB\n-----END PUBLIC KEY-----",
-                    "xsappname": "user-info!t169406",
-                    "zoneid": "78dbf366-7568-424d-9899-5375acbd2cbb"
+                    "uaadomain": "authentication.jp10.hana.ondemand.com",
+                    "url": "https://auth-poc-sony-semicon-sigma.authentication.jp10.hana.ondemand.com",
+                    "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApZ/sLTE6FxAySj9sDjq9\nufjrGX5DbgdZZKjc6jo6NcSqMe8jHhG2ZhZBb4fEKsh/0Mq81D7GV8adLSDZgIer\ncBqlY+7YLDefvZWQQKk+fASaEb3she7pm9XQ7l828J+eIO4iVIAaoowPjLxeiA0l\nOyqRwdG4v5TOCT701hSBA881b8IElJmiBkCyO9Y9s3TUor40/Zk5QVZ7v8Dy7kAr\nMY4/SeVQtn9IMVvloCTqgCaI0udTRhjRwHt5eyMc5MScDtt7kngGWjFsBkFhs9OS\ngSAvXVXsVKtfAoUT0I4mq7PV5N1mTTU+ZI+MtFi73d7D+TlpoPQRA5d9Ro1oFc79\nXwIDAQAB\n-----END PUBLIC KEY-----",
+                    "xsappname": "user-info!t5072",
+                    "zoneid": "b968a30f-ea74-4334-bf7b-a6304dcac9d7"
                 }
             }
         ]

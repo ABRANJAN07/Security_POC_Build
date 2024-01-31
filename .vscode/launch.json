@@ -12,6 +12,13 @@
       "skipFiles": [
         "<node_internals>/**"
       ]
+    },
+    {
+      "command": "cds watch --profile hybrid",
+      "name": "Debug me",
+      "request": "launch",
+      "type": "node-terminal",
+      "cwd": "${workspaceFolder}"
     }
   ]
 }

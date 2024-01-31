@@ -18,9 +18,16 @@ module.exports = cds.service.impl(async function () {
             _roles: req.user._roles,
             role_check : req.user.is('admin'),
             attr : req.user.attr.Region,
-            roles : req.user.roles
+            roles : req.user.roles,
+            logname : req.user.login_name,
+            usrname : req.user.user_name,
+            userdet : req.user,
+            loginName : req.user.attr.user_name,
+            logoname : "oo",
         }
-
+        console.log("user_det: ", user);
+        console.log("user_det2: ", req.user.attr);
+        console.log("user_det3: ", req._req);
         return user;
     });
 

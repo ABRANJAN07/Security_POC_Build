@@ -1,5 +1,5 @@
 {
-    "xsappname": "user-info",
+    "xsappname": "user-infov2",
     "tenant-mode": "dedicated",
     "description": "Security profile of User Info Demo App",
     "scopes": [
@@ -43,7 +43,7 @@
     "oauth2-configuration": {
         "redirect-uris": [
             "https://*.hana.ondemand.com/**",
-            "https://*cfapps.us10-001.hana.ondemand.com/login/callback*",
+            "https://*cfapps.jp10.hana.ondemand.com/login/callback*",
             "https://port5000*/login/callback*",
             "https://*.applicationstudio.cloud.sap/**"
         ]
